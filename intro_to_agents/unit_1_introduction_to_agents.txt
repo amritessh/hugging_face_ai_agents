@@ -1,0 +1,12 @@
+understanding agents -
+what is an agent, how does it work. How do agents make decisions using reasoning and planning.
+
+role of LLMs in Agents:
+How LLMs serve as the brain behind an agent, how LLMs structure conversations via the messages system.
+
+tools and actions:
+how agents use external tools to interact with the environment, how to build and integrate tools for your agent.
+
+The Agent Workflow:
+
+THINK->ACT->OBSERVE
