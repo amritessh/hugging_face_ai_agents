@@ -1,0 +1,47 @@
+Alfred is an agent.
+Alfred receives a command such as Alfred i would like a coffee please.
+Because Alfred understands natural language he quickly grasps our request.
+
+Before fulfilling the order, Alfred engages in reasoning and planning, figuring out the steps and tools he needs to be:
+- Go to the kitchen.
+- Use the coffee machine.
+- Brew the coffee
+- Bring the coffee back
+
+Once he has a plan, he must act. To execute his plan, he can use tools from the list of tools he knows about.
+
+In this case, to make a coffee he uses a coffee machine. He activates the cofee machine to brew the coffee.
+
+Finally Alfred brings the freshly brewed coffee to us.
+
+AI model capable of reasoning, planning and interacting with its environment.
+
+We call it Agent because it has agency, aka has the ability to interact with the environment.
+
+An agent is a system that leverages an AI model to interact with its environment in order to achieve a user defined objective.
+
+The Brain(AI model) - this is where all the thinking happens. The AI model handles reasoning and planning. It decides which actions to take based on the situation.
+
+The Body(Capabilities and Tools) - represents everything the Agent is equipped to do.
+The scope of possible actions depends on what the agent has been equipped with. 
+
+most common AI model found in agents is an LLM which takes text as an input and outputs text as well.
+
+eg - GPT4 from OpenAI, LLama from meta, Gemini from Google.
+
+How AI take action on its environment - LLMs are amazing models, but they can only generate text.
+
+An agent can perform any task we implement via Tools to complete actions.
+
+The design of the tools is very important and has a great impact on the quality of your agent. 
+Some tasks will require very specific tools to be crafted while others may be solved with general purpose tools like web_search.
+
+Allowing an agent to interact with its environment allows real-life usage for companies and individuals.
+
+Personal Virtual assistants - siri, alexa work as agents when they interact on behalf of users using their digital environments.
+
+customer service chatbots - many companies deploy chatbots as agents that interact with customers in natual language. These agents can answer questions,guide users through troubleshooting steps, open issues in internal databases or even complete transactions. 
+
+AI Non playable character in a video game - AI agents powered by LLMs can make Non Playable Character(NPC) more dynamic and unpredictable. Instead of following rigid behavior trees, they can respond contextually adapt to player interactions, and generate more nuanced dialogue. This flexibility helps create more lifelike enagaging characters that evolve alongside the player's actions. 
+
+
