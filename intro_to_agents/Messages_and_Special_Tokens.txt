@@ -1,0 +1,22 @@
+how LLMs structure their generations through chat templates.
+
+Just like chatGPT users typically interact with Agents through a chat interface.
+
+Messages - the underlying system of LLMs.
+
+System Messages: also called system prompts define how the model should behave. They serve as persistent instructions guiding every subsequent interaction.
+
+When using Agents, the system message also gives information about the available tools, provides instructions to the model on how to format the actions to take, and includes guidelines on how the thought process should be segmented. 
+
+Conversation consists of alternating messages between a human(user) and an LLM assistant.
+
+Chat templates help maintain context by preserving conversation history, storing previous exchanges between the user and the assistant. 
+
+Chat templates:
+structuring conversations between language models and users. 
+
+Base models vs Instruct models:
+base model is trained on raw text data to predict the next token.
+
+An instruct model is fine tuned specifically to follow instructions and engage in conversations. 
+

@@ -1,0 +1,18 @@
+LLM is a type of AI model that excels at understanding and generating human language. They are trained on vast amounts of text data, allowing them to learn patterns, structure and even nuance in language. Most LLMs are built on the transformer architecture a deep learning architecture based on the attention algorithm that has gained significant interest since the release of BERT from Google.
+
+Three types of transformers - Encoders, Decoders , Seq2Seq(Encoder-Decoder)
+
+Encoder based transformer takes text or other data as input and ouputs a dense representation or embedding of that text. 
+
+Decoder based transformer focuses on generating new tokens to complete a sequence one token at a time.
+
+sequence to sequence transformer combines an encoder and a decoder the encoder first processes the input sequence into a context representation then the decoder generates an output sequence.
+LLMs are typically decoder based models with billions of parameters.
+
+its objective is to predict the next token, given a sequence of previous tokens. A token is the unit of information LLM works with. You can think of a token as if it was a word but for efficiency reasons LLMs dont use whole words. 
+
+LLMs are said to be autoregressive, meaning that the output from one pass becomes the input for the next one
+
+A key aspect of the Transformer architecture is Attention. When predicting the next word, not every word in a sentence is equally important; words like “France” and “capital” in the sentence “The capital of France is …” carry the most meaning.
+
+
