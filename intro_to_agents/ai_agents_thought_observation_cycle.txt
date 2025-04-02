@@ -1,0 +1,16 @@
+AI agent workflow, a cycle we defined as Thought-Action-Observation.
+
+Core componenets:
+
+Agents work in a continuous cycle of thinking(Thought) -> acting(Act) and observing(Observe).
+
+Thought: The LLM part of the agent decides what the next step should be.
+Action: The agent takes an action, by calling the tools with the associated arguments.
+Observation: The model reflects on the response from the tool. 
+
+The Thought-Action-Observation cycle 
+the three components work together in a continuous loop. to use an analogy from programming, the agent uses a while loop: the loop continues until the objective of the agent has been fulfilled.       
+
+in many agent frameworks, the rules and guidelines are embedded directly into the system prompt. ensures that every cycle adheres to a defined logic. 
+
+Alfred's process is cyclical. it starts with a thought, then acts by calling a tool, and finally observes the outcome. If the observation had indicated an error or incomplete data, Alfred could have re-entered the cycle to correct its approach. 
