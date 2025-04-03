@@ -1,0 +1,18 @@
+In this section, we explore the concrete steps an AI agents takes to interact with its environment. We will cover how actions are represented using JSON or code the importance of the stop and parse approach and introduce different types of agents.
+
+Actions are concrete steps an AI agent takes to interact with its environment.
+
+One key method for implementing actions is the stop and parse approach. this method ensures that the agent's output is structured and predictable:
+
+1. Generation in a structured format: The agent outputs its intended action in a clear, predetermined format. 
+2. Halting further generation: once the action is complete, the agent stops generating additional tokens. This prevents extra erroneous output. 
+3. Parsing the output.: An external parser reads the formatted acction, which tool to call and extracts the required parameters. 
+
+Code agents: instead of outputting a simple json object, a code agent generates an executable code block - typically in a high level langauge like python.
+
+Expressiveness: Code can naturally represent complex logic, including loops, conditionals and nested functions, providing greater flexibility than JSON. 
+Modularity and reusability: Generated code can include functions and modules that are reusable across different actions or tasks.
+Enhanced Debuggability: With a well defined programming syntax, code errors are often easier to detect and correct.
+Direct Integration: Code agents can integrate directly with external libraries and APIs, enabling more complex operations such as data processing or real-time decision making.
+
+
