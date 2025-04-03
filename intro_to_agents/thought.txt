@@ -1,0 +1,17 @@
+Thought: Internal Reasoning and the Re-Act Approach
+
+Thoughts represent the Agent's internal reasoning and planning processes to solve the task.
+
+This utiliises the agent's LLM capcacity to analyze information when presented in its prompt.
+
+think of it as the agent's internal dialogue where it considers the task at hand and strategizes its approach.
+
+the agent's thoughts are responsible for accessing current observations and decide what the next action(s) should be.
+
+through this process the agent can break down complex problems into smaller, more manageable steps reflect on past experiences and continuously adjust its plans based on new information.
+
+Planning, Analysis, Decision Making, Problem Solving, Memory Integration, Self-Reflection, Goal Setting, Prioritization
+
+Re-Act Approach which is concatenation of reasoning with acting.
+
+
