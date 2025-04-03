@@ -1,0 +1,11 @@
+library that provides a framework for develpoing your agents with ease.
+
+smolagents is a lightweight library is designed for simplicity but its abstracts away much of the complexity of building an agent, allowing you to focus on agent's behavior.
+
+we will directly use the CodeAgent class from smolagents.
+
+agent still uses the inferenceClient behind the HfApiModel class!
+
+Adding tools will give your agent new capabilities.
+
+
